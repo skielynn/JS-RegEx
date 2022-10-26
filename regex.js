@@ -31,7 +31,9 @@ Expected Output:
 
 */ 
  
-let phoneReg = /write your regex here/
+let phoneReg = \d{3}-\d{3}-\d{4}/g
+let phoneNumbers = sampleApp.match(phoneReg)
+console.log(phoneNumbers)
 
 /* 
 
@@ -51,8 +53,9 @@ Expected Output:
 
 */ 
 
-let emailReg = /write your regex here/
-
+let emailReg = \w+{}
+let emailUsed = sampleApp.match(emailReg)
+console.log(emailUsed)
 /* 
 
 Regular Expression 3: 
